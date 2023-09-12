@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin-Fashion</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin: '#FFFBF0',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="bg-penguin">
+      <section class="container mx-auto sm:flex items-center justify-around py-14 sm:pb-14 px-16">
+        <div class="space-y-8">
+          <h1 class="text-2xl sm:text-7xl uppercase font-bold ">
+            <span class="text-yellow-400">Be the Penguins</span>
+            <br>
+            <span>of Winter</span>
+          </h2>
+          <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <button class="uppercase text-semibold text-white py-5 px-7 rounded-2xl bg-[#A4BC46]">
+           <img class="h-7 inline" src="icons/shopping-cart 1.png" alt=""> Buy Now
+          </button>
+        </div>
+        <div>
+          <img class="w-1/2 sm:w-full pt-8" src="images/model.png" alt="">
+        </div>
+      </section>
+    </header>
+
+    <main class="container mx-auto mt-24">
+
+      <!-- womens jacket -->
+
+      <h2 class="text-5xl uppercase mb-7">Womens jacket</h2>
+
+      <div class="grid grid-cols-3 gap-7">
+        
+        <!-- 1st jacket -->
+
+        <div class="p-4 shadow-lg">
+          <div class="bg-[#F1F1F1] p-5 mb-8 rounded-xl">
+            <img src="images/jacket-1.png" alt="">
+          </div>
+          <h2 class="text-4xl font-bold mb-4">Yello Coat Jacket</h2>
+          <p class="text-xl mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum!</p>
+          <div class="flex gap-4 items-center justify-between">
+            <h1 class="font-bold text-5xl text-[#FABE4C]">$234</h1>
+            <button class="uppercase text-semibold text-white py-5 px-7 rounded-2xl bg-[#A4BC46]">
+              <img class="h-7 inline" src="icons/shopping-cart 1.png" alt=""> Buy Now
+             </button>
+          </div>
+        </div>
+
+        <!-- 2nd jacket -->
+
+        <div class="p-4 shadow-lg">
+        
+          <div class="bg-[#F1F1F1] p-5 mb-8 rounded-xl">
+            <img src="images/jacket-2.png" alt="">
+          </div>
+          <h2 class="text-4xl font-bold mb-4">Ladies Jacket</h2>
+          <p class="text-xl mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum!</p>
+          <div class="flex gap-4 items-center justify-between">
+            <h1 class="font-bold text-5xl text-[#FABE4C]">$234</h1>
+            <button class="uppercase text-semibold text-white py-5 px-7 rounded-2xl bg-[#A4BC46]">
+              <img class="h-7 inline" src="icons/shopping-cart 1.png" alt=""> Buy Now
+             </button>
+          </div>
+        </div>
+
+        <!-- 3rd jacket -->
+
+        <div class="p-4 shadow-lg">
+          <!-- <div class=""> -->
+          <div class="bg-[#F1F1F1] p-5 mb-8 rounded-xl">
+            <img src="images/jacket-3.png" alt="">
+          </div>
+          <h2 class="text-4xl font-bold mb-4">Woman Leather Jacket </h2>
+          <p class="text-xl mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum!</p>
+          <div class="flex gap-4 items-center justify-between">
+            <h1 class="font-bold text-5xl text-[#FABE4C]">$234</h1>
+            <button class="uppercase text-semibold text-white py-5 px-7 rounded-2xl bg-[#A4BC46]">
+              <img class="h-7 inline" src="icons/shopping-cart 1.png" alt=""> Buy Now
+             </button>
+          <!-- </div> -->
+        </div>
+      </div>
+    </main>
+    
+</body>
+</html>
